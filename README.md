@@ -1,12 +1,47 @@
-# React + Vite
+# 💸 Expense Management - Ứng dụng Quản lý Chi tiêu bằng ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ứng dụng đơn giản giúp bạn **thêm, chỉnh sửa, xóa và tính tổng chi tiêu cá nhân**, được xây dựng bằng ReactJS. Dữ liệu được lưu bằng **localStorage**, đảm bảo không mất khi reload trang.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 1. TÍNH NĂNG CHÍNH
 
-## Expanding the ESLint configuration
+- Thêm khoản chi tiêu mới (tên, số tiền, ngày)
+- Hiển thị danh sách các khoản đã chi
+- Ngày chi (tùy chọn, mặc định là hôm nay)
+- Sửa và xóa khoản chi
+- Tính tổng chi tiêu
+- Lưu dữ liệu vào `localStorage` để không mất khi reload
+- Giao diện gồm 3 phần:
+   + Expense Info
+   + Expense List
+   + Total Expense
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 2. CẤU TRÚC THƯ MỤC CHÍNH
+
+src/
+├── components/
+│ ├── ExpenseForm.jsx
+│ ├── ExpenseList.jsx
+│ └── TotalExpense.jsx
+├── App.jsx
+├── App.css
+
+
+---
+
+## 3. CÁCH CHẠY PROJECT
+
+# Clone project về máy
+git clone https://github.com/HquanhocUIT/expense_management.git
+
+# Di chuyển vào thư mục 
+cd expense_management
+
+# Cài đặt dependencies cần thiết
+npm install
+
+# Khởi chạy server phát triển (dev server)
+npm run dev
