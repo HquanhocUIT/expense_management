@@ -1,4 +1,4 @@
-// src/components/TotalExpense.jsx
+
 import React from 'react';
 
 export default function TotalExpense({ total }) {
