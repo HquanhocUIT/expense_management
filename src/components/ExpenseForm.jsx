@@ -1,4 +1,4 @@
-// src/components/ExpenseForm.jsx
+
 import React from 'react';
 
 export default function ExpenseForm({ title, amount, date, setTitle, setAmount, setDate }) {
