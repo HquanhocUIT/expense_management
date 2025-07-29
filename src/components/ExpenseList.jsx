@@ -1,4 +1,4 @@
-// src/components/ExpenseList.jsx
+
 import React from 'react';
 
 export default function ExpenseList({ expenses, onDelete, onEdit }) {
