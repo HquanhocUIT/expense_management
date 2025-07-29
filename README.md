@@ -34,14 +34,14 @@ src/
 
 ## 3. CÁCH CHẠY PROJECT
 
-# Clone project về máy
+- Clone project về máy:
 git clone https://github.com/HquanhocUIT/expense_management.git
 
-# Di chuyển vào thư mục 
+- Di chuyển vào thư mục:
 cd expense_management
 
-# Cài đặt dependencies cần thiết
+- Cài đặt dependencies cần thiết:
 npm install
 
-# Khởi chạy server phát triển (dev server)
+- Khởi chạy server phát triển (dev server):
 npm run dev
