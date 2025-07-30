@@ -28,9 +28,10 @@ src/
 │ └── TotalExpense.jsx
 ├── App.jsx
 ├── App.css
+|── index.css
+|── main.jsx
 ```
 
----
 
 ## 3. CÁCH CHẠY PROJECT
 
